@@ -85,7 +85,19 @@ Perbedaan alamat memori pointer dan alamat referensi adalah alamat memori pointe
 
 Penggunaan pointer sebenarnya opsional, namun pada kondisi tertentu penggunaan pointer lebih optimal. Pointer dapat digunakan untuk pass by reference. Pointer juga dapat digunakan untuk mengakses data array.
 
-**JOB SHEET 10**
+**JOB SHEET 10 Enumerasi & Structure**
+
+Enum atau Enumeration merupakan tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita. Enum dibutuhkan karena akan memberikan efisiensi dan fleksibilitas dalam penggunaan memori. Variabel enum hanya akan mengambil satu nilai dari konstanta yang ada. 
+
+Structure atau struct adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu varabel. Struct dapat kita buat dengan kata kunci struct kemudian diikuti dengan nama struct dan isinya. Menggunakan typedef pada Struct, kata kunci typedef adalah kata kunci untuk mendefinisikan tipe data baru. Kita bisa menggunakan kata kunci ini di depan struct untuk menyatakannya sebagai tipe data baru.
+
+Struct Bersarang yaitu struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct. Passing Struct ke dalam fungsi, struct dapat kita buat sebagai parameter untuk fungsi.
+
+**JOB SHEET 11**
+
+
+
+
 
 
 
