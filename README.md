@@ -21,6 +21,7 @@ Coding adalah proses untuk menuliskan kode yang harus sesuai dengan aturan penul
 
 IDE atau Integrated Development Environment adalah software atau aplikasi yang digunakan oleh programmer untuk membuat sebuah program komputer atau sebagai tempat pengembangan aplikasi. Contohnya adalah DevC++, Microsoft Visual Studio, CodeBlocks, NetBeans, Eclips, dll.
 
+
 **JOB SHEET 2 Pemrograman Dasar C**
 
 Sintaks adalah aturan penulisan kode pada bahasa pemrograman. struktur bahasa c dibagi jadi 2 bagian utama yaitu bagian include dan blok fungsi main. pada header file terdapat kode #include untuk memasukkan sebuah file khusus agar dapat mengakses fitur tambahan dalam bahasa c. fungsi main adalah fungsi utama dalam program yang akan dieksekusi pertama kali saat dijalankan. Statement adalah perintah perintah untuk melakukan sesuatu. Semicolons digunakan untuk megakhiri suatu perintahatau statement dan wajib digunakan di akhir statement. Identifier adalah nama yang digunakan untuk identifikasi variabel, fungsi, atau item yg didefinisikan programmer. Comments digunakan untuk menjelaskan dari fungsi yang dibuat, comments akan diabaikan oleh kompiler. Whitespaces digunakan untuk mendeskripsikan blank, tab, spasi, baris baru dan dapet berupa komentar.
@@ -29,13 +30,15 @@ Output adalah informasi yang ditampilkan ke layar komputer setelah dilakukan pro
 
 Input adalah proses memasukkan data kedalam sebuah program. input dapat menggunakan fungsi scanf() yang menggunakan format, fungsi gets() yang tidak menggunakan format, namun tidak disarankan menggunakan gets() karena dapat menyebabkan buffer overflow, namun sebagai gantinya kita bisa menggunakan fungsi fgets() karena kita bisa menentukan ukuran buffer dan sumber inputan.
 
+
 **JOB SHEET 3 Variabel, Konstanta, & Tipe Data**
 
 Variabel adalah tempat untuk menyimpan sebuah nilai. variabel mempunyai beberapa aturan yaitu tidak boleh didahului oleh angka atau simbol, tidak boleh menggunakan kata yang sudah ada dalam bahasa c seperti if, int,void, dll, variabel bersifat case sensitive yaitu huruf besar dan kecil dibedakan, disarankan menggunakan underscore untuk variabel yg terdiri dari 2 suku kata.
 
 Tipe data adalah jenis nilai yang akan tersimpan dalam variabel. Tipe data ada 8 yaitu char, integer, float, array, structure, pointer, enum, dan void. Namun ada 4 tipe data dasar yaitu char, integer, float dan double. Char untuk data yang berisi 1 huruf atau 1 karakter, integer untuk data berupa angka, float untuk data berupa bilangan pecahan, double sama dengan float namun memiliki ukuran penyimpanan yg lebih besar dari float.
 
-Konstanta adalah nilai tetapan atau variabel yang tidak bisa diubah nilainya. Ada dua cara pembuatan konstanta yaitu memakai #define dan const. perbedaan keduanya terletak pada format penulisan yaitu pada #define tidak perlu menuliskan tipe data dan titik koma di akhir, sedangkan const harus. keduanya dapat ditulis di dalam main() maupun di luar
+Konstanta adalah nilai tetapan atau variabel yang tidak bisa diubah nilainya. Ada dua cara pembuatan konstanta yaitu memakai #define dan const. perbedaan keduanya terletak pada format penulisan yaitu pada #define tidak perlu menuliskan tipe data dan titik koma di akhir, sedangkan const harus. keduanya dapat ditulis di dalam main() maupun di luar.
+
 
 **JOB SHEET 4 Operator**
 
@@ -45,6 +48,7 @@ Operator Aritmatika yaitu operator untuk operasi matematika seperti penjumlahan,
 
 Operator bitwise yaitu operator yang digunakan untuk operasi berdasarkan bit(biner) dari sebuah nilai.operator lain lain seperti Alamat memori(&) untuk menganbil alamat memori, pointer(*)untuk membuat pointer, ternary(?:) untuk membuat kondisi, increament(++)untuk menambah 1, decrement(--) untuk mengurangi 1.
 
+
 **JOB SHEET 5 Flow Control : Decision Making**
 
 Percabangan if yaitu percabangan yang hanya memiliki 1 blok pilihan saat kondisi bernilai benar. Percabangan if else adalah percabangan yang memiliki 2 blok pilihan yaitu blok pilihan pertama untuk kondisi, dan pilihan kedua untuk kondisi salah(else). Percabangan if else if adalah percabangan yang memiliki lebih dari dua blok pilihan. 
@@ -52,6 +56,7 @@ Percabangan if yaitu percabangan yang hanya memiliki 1 blok pilihan saat kondisi
 Percabangan Switch Case adalah bentuk lain dari percabangan if else if, dengan switch kita dapat membuat blok kode sebanyak yang diinginkan. Pada switch kita memakai break di akhir setiap case agar program berhenti mengecek case berikutnya saat sebuah case terpenuhi. Khusus untuk default tidak perlu diakhiri break karena dia terletak di bagian akhir.
 
 Percabangan operator ternary adalah bentuk singkatnya dari percabangan if else. Operator ternary dikenal juga sebagai operator kondisi. Percabangan bersarang yaitu percabangan di dalam percabangan yang dikenal juga sebagai nested if. 
+
 
 **JOB SHEET 6 Flow Control : Loop (Perulangan)**
 
@@ -61,6 +66,7 @@ Perulangan for adalah perulangan yang sudah jelas berapa kali ia mengulang. peru
 
 Perulangan do while adalah perulangan yang sama dengan while, bedanya do while akan melakukan perulangan 1 kali dulu baru mengecek kondisi yang ada dalam kurung while. Perulangan do while akan mengecek kondisi di akhir atau sesudah mengulang. Perulangan bersarang adalah perulangan di dalam perulangan yang biasa juga dikenal dengan nested loop.
 
+
 **JOB SHEET 7 Srtuktur Data : Array**
 
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat. Setiap data dalam array memiliki indeks sehingga nantinya mudah untuk memprosesnya seperti mengakses atau mengganti datanya. Cara membuat array mirip seperti membuat variabel biasanya, namun pada array perlu menentukan panjang array menggunakan kurung siku[].
@@ -68,6 +74,7 @@ Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam 
 Array dapat diakses dengan mudah dengan cara memberinya nomor indeks. untuk mengambil panjang array kita bisa memakai fungsi sizeof(). Array multidimensi adalah array yang terdiri dari 2 dimensi atau lebih, biasanya digunakan untuk membuat matriks.
 
 Fungsi Strcpy() digunakan untuk mengkopi string pada variabel ke 2 ke variabel 1. Fungsi strcat() digunakan untuk menambahkan string dari belakang. Fungsi strlen() digunakan untuk menghitung panjang string. Fungsi strcmp() digunakan untuk membandingkan string dengan string lainnya. 
+
 
 **JOB SHEET 8 Fungsi & Prosedur**
 
@@ -77,6 +84,7 @@ Fungsi dengan parameter, parameter adalah variabel yang menyimpan nilai untuk di
 
 Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri di dalam tubuh fungsi. Variabel global adalah variabel yang bisa diakses dari semua fungsi, sedangkan variabel lokal adalah variabel yang hanya bisa diakses dari dalam fungsi itu sendiri. Pass by value dan pass by reference adalah cara untuk memberikan nilai pada parameter.
 
+
  **JOB SHEET 9 Pointer**
 
  Pointer adalah sebuah variabel yang berisi alamat memori dari variabel yang lain. Nantinya pointer bisa mengakses data yang ada di suatu alamat memori. "pointer berisi alamat memori". Cara penggunaan pointer yaitu dengan menambahkan simbol * (asterik) di depan nama variabelnya, kemudian diisi dengan alamat memori yang akan digunakan sebagai referensi.
@@ -85,6 +93,7 @@ Perbedaan alamat memori pointer dan alamat referensi adalah alamat memori pointe
 
 Penggunaan pointer sebenarnya opsional, namun pada kondisi tertentu penggunaan pointer lebih optimal. Pointer dapat digunakan untuk pass by reference. Pointer juga dapat digunakan untuk mengakses data array.
 
+
 **JOB SHEET 10 Enumerasi & Structure**
 
 Enum atau Enumeration merupakan tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita. Enum dibutuhkan karena akan memberikan efisiensi dan fleksibilitas dalam penggunaan memori. Variabel enum hanya akan mengambil satu nilai dari konstanta yang ada. 
@@ -92,6 +101,7 @@ Enum atau Enumeration merupakan tipe data yang berisi sekumpulan konstanta. Enum
 Structure atau struct adalah kumpulan dari beberapa variabel dengan beragam tipe data yang dibungkus dalam satu varabel. Struct dapat kita buat dengan kata kunci struct kemudian diikuti dengan nama struct dan isinya. Menggunakan typedef pada Struct, kata kunci typedef adalah kata kunci untuk mendefinisikan tipe data baru. Kita bisa menggunakan kata kunci ini di depan struct untuk menyatakannya sebagai tipe data baru.
 
 Struct Bersarang yaitu struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct. Passing Struct ke dalam fungsi, struct dapat kita buat sebagai parameter untuk fungsi.
+
 
 **JOB SHEET 11 File handling in C**
 
