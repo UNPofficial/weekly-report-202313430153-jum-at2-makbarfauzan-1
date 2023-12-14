@@ -45,7 +45,15 @@ Operator Aritmatika yaitu operator untuk operasi matematika seperti penjumlahan,
 
 Operator bitwise yaitu operator yang digunakan untuk operasi berdasarkan bit(biner) dari sebuah nilai.operator lain lain seperti Alamat memori(&) untuk menganbil alamat memori, pointer(*)untuk membuat pointer, ternary(?:) untuk membuat kondisi, increament(++)untuk menambah 1, decrement(--) untuk mengurangi 1.
 
-**JOB SHEET 5**
+**JOB SHEET 5 Flow Control : Decision Making**
+
+Percabangan if yaitu percabangan yang hanya memiliki 1 blok pilihan saat kondisi bernilai benar. Percabangan if else adalah percabangan yang memiliki 2 blok pilihan yaitu blok pilihan pertama untuk kondisi, dan pilihan kedua untuk kondisi salah(else). Percabangan if else if adalah percabangan yang memiliki lebih dari dua blok pilihan. 
+
+Percabangan Switch Case adalah bentuk lain dari percabangan if else if, dengan switch kita dapat membuat blok kode sebanyak yang diinginkan. Pada switch kita memakai break di akhir setiap case agar program berhenti mengecek case berikutnya saat sebuah case terpenuhi. Khusus untuk default tidak perlu diakhiri break karena dia terletak di bagian akhir.
+
+Percabangan operator ternary adalah bentuk singkatnya dari percabangan if else. Operator ternary dikenal juga sebagai operator kondisi. Percabangan bersarang yaitu percabangan di dalam percabangan yang dikenal juga sebagai nested if. 
+
+**JOB SHEET 6**
 
 
  
