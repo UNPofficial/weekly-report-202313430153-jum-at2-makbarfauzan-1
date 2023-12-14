@@ -53,8 +53,15 @@ Percabangan Switch Case adalah bentuk lain dari percabangan if else if, dengan s
 
 Percabangan operator ternary adalah bentuk singkatnya dari percabangan if else. Operator ternary dikenal juga sebagai operator kondisi. Percabangan bersarang yaitu percabangan di dalam percabangan yang dikenal juga sebagai nested if. 
 
-**JOB SHEET 6**
+**JOB SHEET 6 Flow Control : Loop (Perulangan)**
 
+Loop atau perulangan adalah sepotong kode yang dieksekusi berulang kali hingga tercapai kondisi yang diinginkan. Secara umum perulangan dibagi 2 yaitu counted loop dan uncounted loop. Counted loop adalah perulangan yg sudah ditentukan batas perulangan nya, sedangkan uncounted loop adalah perulangan yang tidak jelas harus berapa kali mengulang. Perulangan counted loop yaitu perulangan for, perulangan uncounted loop yaitu perulangan while dan perulangan do/while.
+
+Perulangan for adalah perulangan yang sudah jelas berapa kali ia mengulang. perulangan membutuhkan variabel i untuk menyimpan nilai hitungan. Perulangan While adalah perulangan uncounted loop yang tidak jelas harus berapa kali mengulang, namun dapat diubah menjadi counted loop dengan memberikan counter di dalamnya. Perulangan while akan mengecek kondisi di awal atau sebelum mengulang.
+
+Perulangan do while adalah perulangan yang sama dengan while, bedanya do while akan melakukan perulangan 1 kali dulu baru mengecek kondisi yang ada dalam kurung while. Perulangan do while akan mengecek kondisi di akhir atau sesudah mengulang. Perulangan bersarang adalah perulangan di dalam perulangan yang biasa juga dikenal dengan nested loop.
+
+**JOB SHEET 7**
 
  
 
