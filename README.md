@@ -37,7 +37,17 @@ Tipe data adalah jenis nilai yang akan tersimpan dalam variabel. Tipe data ada 8
 
 Konstanta adalah nilai tetapan atau variabel yang tidak bisa diubah nilainya. Ada dua cara pembuatan konstanta yaitu memakai #define dan const. perbedaan keduanya terletak pada format penulisan yaitu pada #define tidak perlu menuliskan tipe data dan titik koma di akhir, sedangkan const harus. keduanya dapat ditulis di dalam main() maupun di luar
 
-**JOB SHEET 4**
+**JOB SHEET 4 Operator**
+
+Operator adalah simbol yang digunakan untuk melakukan operasi tertentu. berdasarkan jumalah operand nya, operator tebagi 3 yaitu operator Unary 1 operand, operator Binary 2 operand, Operator Ternary 3 operand. Operand adalah nilai asal yang digunakan dalam sebuah operasi, sedangkan operator adalah instruksi untuk mendapatkan dari proses tersebut. 
+
+Operator Aritmatika yaitu operator untuk operasi matematika seperti penjumlahan, pengurangan, perkalian, pembagian dan sisa bagi. Operator penugasan yaitu operator untuk memberikan tugas pada variabel biasanya untuk mengisi niai. Operator pembanding yaitu untuk membandingkan dua buah nilai bisanya juga dikenal dengn operator relasi. Operator logika yaitu untuk membuat operasi logika. 
+
+Operator bitwise yaitu operator yang digunakan untuk operasi berdasarkan bit(biner) dari sebuah nilai.operator lain lain seperti Alamat memori(&) untuk menganbil alamat memori, pointer(*)untuk membuat pointer, ternary(?:) untuk membuat kondisi, increament(++)untuk menambah 1, decrement(--) untuk mengurangi 1.
+
+**JOB SHEET 5**
+
+
  
 
 
