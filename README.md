@@ -61,7 +61,15 @@ Perulangan for adalah perulangan yang sudah jelas berapa kali ia mengulang. peru
 
 Perulangan do while adalah perulangan yang sama dengan while, bedanya do while akan melakukan perulangan 1 kali dulu baru mengecek kondisi yang ada dalam kurung while. Perulangan do while akan mengecek kondisi di akhir atau sesudah mengulang. Perulangan bersarang adalah perulangan di dalam perulangan yang biasa juga dikenal dengan nested loop.
 
-**JOB SHEET 7**
+**JOB SHEET 7 Srtuktur Data : Array**
+
+Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat. Setiap data dalam array memiliki indeks sehingga nantinya mudah untuk memprosesnya seperti mengakses atau mengganti datanya. Cara membuat array mirip seperti membuat variabel biasanya, namun pada array perlu menentukan panjang array menggunakan kurung siku[].
+
+Array dapat diakses dengan mudah dengn cara memberinya nomor indeks. untuk mengambil panjang array kita bisa memakai fungsi sizeof(). Array multidimensi adalah array yang terdiri dari 2 dimensi atau lebih, biasanya digunakan untuk membuat matriks.
+
+Fungsi Strcpy() digunakan untuk mengkopi string pada variabel ke 2 ke variabel 1. Fungsi strcat() digunkan untuk menambahkan string dari belakang. Fungsi strlen() digunakan untuk menghitung panjang string. Fungsi strcmp() digunakan untuk membandingkan string dengn string lainnya. 
+
+**JOB SHEET 8**
 
  
 
