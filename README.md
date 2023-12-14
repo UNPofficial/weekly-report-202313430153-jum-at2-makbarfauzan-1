@@ -23,12 +23,21 @@ IDE atau Integrated Development Environment adalah software atau aplikasi yang d
 
 **JOB SHEET 2 Pemrograman Dasar C**
 
-Sintaks adalah aturan penulisan kode pada bahasa pemrograman. struktur bahasa c dibagi jadi 2 bagian utama yaitu bagian include dan blok fungsi main. pada header file terdapat kode #include untuk memasukkan sebuah file khusus agar dapat mengakses fitur tambahan dalam bahasa c. fungsi main dalah fungsi utama dalam program yang akan dieksekusi pertama kali saat dijalankan. Statement adalah perintah perintah untuk melakukan sesuatu. Semicolons digunakan untuk megakhiri suatu perintahatau statement dan wajib digunakan di akhir statement. Identifier adalah nama yang digunakan untuk identifikasi variabel, fungsi, atau item yg didefinisikan programmer. Comments digunakan untuk menjelaskan dari fungsi yang dibuat, comments akan diabaikan oleh kompiler. Whitespaces digunakan untuk mendeskripsikan blank, tab, spasi, baris baru dan dapet berupa komentar.
+Sintaks adalah aturan penulisan kode pada bahasa pemrograman. struktur bahasa c dibagi jadi 2 bagian utama yaitu bagian include dan blok fungsi main. pada header file terdapat kode #include untuk memasukkan sebuah file khusus agar dapat mengakses fitur tambahan dalam bahasa c. fungsi main adalah fungsi utama dalam program yang akan dieksekusi pertama kali saat dijalankan. Statement adalah perintah perintah untuk melakukan sesuatu. Semicolons digunakan untuk megakhiri suatu perintahatau statement dan wajib digunakan di akhir statement. Identifier adalah nama yang digunakan untuk identifikasi variabel, fungsi, atau item yg didefinisikan programmer. Comments digunakan untuk menjelaskan dari fungsi yang dibuat, comments akan diabaikan oleh kompiler. Whitespaces digunakan untuk mendeskripsikan blank, tab, spasi, baris baru dan dapet berupa komentar.
 
 Output adalah informasi yang ditampilkan ke layar komputer setelah dilakukan proses. Output dapat menggunakan fungsi printf() yang harus menggunakan format sedangkan jika menggunakan fungsi puts() tidak memerlukan format.
 
-Input adalah proses memasukkan data kedalam sebuah program. input dapat menggunakan fungsi scanf() yang menggunakan format, fungsi gets() yang tidak menggunakan format, namun tidak disaranakn menggunakan gets() karena dapat menyebabkan buffer overflow, namun sebagai gantinya kita bisa menggunakan fungsi fgets() karena kita bisa menentukan ukuran buffer da sumber inputan.
+Input adalah proses memasukkan data kedalam sebuah program. input dapat menggunakan fungsi scanf() yang menggunakan format, fungsi gets() yang tidak menggunakan format, namun tidak disarankan menggunakan gets() karena dapat menyebabkan buffer overflow, namun sebagai gantinya kita bisa menggunakan fungsi fgets() karena kita bisa menentukan ukuran buffer dan sumber inputan.
 
+**JOB SHEET 3 Variabel, Konstanta, & Tipe Data**
 
+Variabel adalah tempat untuk menyimpan sebuah nilai. variabel mempunyai beberapa aturan yaitu tidak boleh didahului oleh angka atau simbol, tidak boleh menggunakan kata yang sudah ada dalam bahasa c seperti if, int,void, dll, variabel bersifat case sensitive yaitu huruf besar dan kecil dibedakan, disarankan menggunakan underscore untuk variabel yg terdiri dari 2 suku kata.
+
+Tipe data adalah jenis nilai yang akan tersimpan dalam variabel. Tipe data ada 8 yaitu char, integer, float, array, structure, pointer, enum, dan void. Namun ada 4 tipe data dasar yaitu char, integer, float dan double. Char untuk data yang berisi 1 huruf atau 1 karakter, integer untuk data berupa angka, float untuk data berupa bilangan pecahan, double sama dengan float namun memiliki ukuran penyimpanan yg lebih besar dari float.
+
+Konstanta adalah nilai tetapan atau variabel yang tidak bisa diubah nilainya. Ada dua cara pembuatan konstanta yaitu memakai #define dan const. perbedaan keduanya terletak pada format penulisan yaitu pada #define tidak perlu menuliskan tipe data dan titik koma di akhir, sedangkan const harus. keduanya dapat ditulis di dalam main() maupun di luar
+
+**JOB SHEET 4**
+ 
 
 
