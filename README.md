@@ -65,12 +65,17 @@ Perulangan do while adalah perulangan yang sama dengan while, bedanya do while a
 
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat. Setiap data dalam array memiliki indeks sehingga nantinya mudah untuk memprosesnya seperti mengakses atau mengganti datanya. Cara membuat array mirip seperti membuat variabel biasanya, namun pada array perlu menentukan panjang array menggunakan kurung siku[].
 
-Array dapat diakses dengan mudah dengn cara memberinya nomor indeks. untuk mengambil panjang array kita bisa memakai fungsi sizeof(). Array multidimensi adalah array yang terdiri dari 2 dimensi atau lebih, biasanya digunakan untuk membuat matriks.
+Array dapat diakses dengan mudah dengan cara memberinya nomor indeks. untuk mengambil panjang array kita bisa memakai fungsi sizeof(). Array multidimensi adalah array yang terdiri dari 2 dimensi atau lebih, biasanya digunakan untuk membuat matriks.
 
-Fungsi Strcpy() digunakan untuk mengkopi string pada variabel ke 2 ke variabel 1. Fungsi strcat() digunkan untuk menambahkan string dari belakang. Fungsi strlen() digunakan untuk menghitung panjang string. Fungsi strcmp() digunakan untuk membandingkan string dengn string lainnya. 
+Fungsi Strcpy() digunakan untuk mengkopi string pada variabel ke 2 ke variabel 1. Fungsi strcat() digunakan untuk menambahkan string dari belakang. Fungsi strlen() digunakan untuk menghitung panjang string. Fungsi strcmp() digunakan untuk membandingkan string dengan string lainnya. 
 
-**JOB SHEET 8**
+**JOB SHEET 8 Fungsi & Prosedur**
+
+Fungsi adalah sub program yang bisa digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain. Fungsi biasanya mengembalikkan nilai dari prosesnya, sehingga harus menentukan tipe data untuk dikembalikkan. Apabila tidak memiliki nilai kembalian, kita harus menggunakan void.
+
+Fungsi dengan parameter, parameter adalah variabel yang menyimpan nilai untuk di proses di dalam fungsi, parameter akan menyimpan nilai yang diinputkan ke dalam fungsi. Fungsi yang mengembalikkan nilai biasanya menggunakan kata kunci return untuk mengembalikkan nilai dari fungsi
+
+Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri di dalam tubuh fungsi. Variabel global adalah variabel yang bisa diakses dari semua fungsi, sedangkan variabel lokal adalah variabel yang hanya bisa diakses dari dalam fungsi itu sendiri. Pass by value dan pass by reference adalah cara untuk memberikan nilai pada parameter.
 
  
-
 
