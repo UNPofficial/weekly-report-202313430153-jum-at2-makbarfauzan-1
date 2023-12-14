@@ -93,14 +93,12 @@ Structure atau struct adalah kumpulan dari beberapa variabel dengan beragam tipe
 
 Struct Bersarang yaitu struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct. Passing Struct ke dalam fungsi, struct dapat kita buat sebagai parameter untuk fungsi.
 
-**JOB SHEET 11**
+**JOB SHEET 11 File handling in C**
 
+Saat program ditutup semua data yang tersimpan di variabel akan hilang. Memanfaatkan variabel saja tidak akan cukup untuk menyimpan data. Karena itu, kita membutuhkan media penyimpanan lain seperti File. Dengan demikian, kita akan tetap memiliki data, meskipun programnya sudah ditutup. Filenya juga bisa kita kirim ke komptuer lain dan dibuka dari sana.
 
+Membaca file dengan C dengan fopen() akan membuka file sesuai dengan mode yang kita berikan. Fungsi fopen() akan menghasilkan sebuah pointer yang menunjuk ke alamat memori dari file yang akan dibuka, karena itulah kita membutuhkan pointer untuk mengaksesnya. 
 
-
-
-
-
-
+Menulis dalam File dengan C, jika fungsi fgets() digunakan untuk membaca file, untuk menulisnya kita butuh fungsi fputs(). Fungsi fputs() akan menulis teks ke dalam file yang sedang dibuka.
 
 
