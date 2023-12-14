@@ -13,7 +13,7 @@
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 # Laporan Praktikum Algoritma Pemrograman
-  ## JOB SHEET 1 Algoritma, Pemrograman, IDE
+## JOB SHEET 1 Algoritma, Pemrograman, IDE
   
 
 
