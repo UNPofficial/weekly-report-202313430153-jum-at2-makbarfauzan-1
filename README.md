@@ -77,5 +77,18 @@ Fungsi dengan parameter, parameter adalah variabel yang menyimpan nilai untuk di
 
 Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri di dalam tubuh fungsi. Variabel global adalah variabel yang bisa diakses dari semua fungsi, sedangkan variabel lokal adalah variabel yang hanya bisa diakses dari dalam fungsi itu sendiri. Pass by value dan pass by reference adalah cara untuk memberikan nilai pada parameter.
 
- 
+ **JOB SHEET 9 Pointer**
+
+ Pointer adalah sebuah variabel yang berisi alamat memori dari variabel yang lain. Nantinya pointer bisa mengakses data yang ada di suatu alamat memori. "pointer berisi alamat memori". Cara penggunaan pointer yaitu dengan menambahkan simbol * (asterik) di depan nama variabelnya, kemudian diisi dengan alamat memori yang akan digunakan sebagai referensi.
+
+Perbedaan alamat memori pointer dan alamat referensi adalah alamat memori pointer adalah alamat memori yang digunakan untuk menyimpan pointer, sedangkan alamat referensi adalah alamat yang akan menjadi referensi dari pointer. "pointer akan bisa mengakses isi data pada alamat referensi yang diberikannya". 
+
+Penggunaan pointer sebenarnya opsional, namun pada kondisi tertentu penggunaan pointer lebih optimal. Pointer dapat digunakan untuk pass by reference. Pointer juga dapat digunakan untuk mengakses data array.
+
+**JOB SHEET 10**
+
+
+
+
+
 
