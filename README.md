@@ -31,7 +31,7 @@ Output adalah informasi yang ditampilkan ke layar komputer setelah dilakukan pro
 Input adalah proses memasukkan data kedalam sebuah program. input dapat menggunakan fungsi scanf() yang menggunakan format, fungsi gets() yang tidak menggunakan format, namun tidak disarankan menggunakan gets() karena dapat menyebabkan buffer overflow, namun sebagai gantinya kita bisa menggunakan fungsi fgets() karena kita bisa menentukan ukuran buffer dan sumber inputan.
 
 
-**JOB SHEET 3 Variabel, Konstanta, & Tipe Data**
+## JOB SHEET 3 Variabel, Konstanta, & Tipe Data
 
 Variabel adalah tempat untuk menyimpan sebuah nilai. variabel mempunyai beberapa aturan yaitu tidak boleh didahului oleh angka atau simbol, tidak boleh menggunakan kata yang sudah ada dalam bahasa c seperti if, int,void, dll, variabel bersifat case sensitive yaitu huruf besar dan kecil dibedakan, disarankan menggunakan underscore untuk variabel yg terdiri dari 2 suku kata.
 
@@ -40,7 +40,7 @@ Tipe data adalah jenis nilai yang akan tersimpan dalam variabel. Tipe data ada 8
 Konstanta adalah nilai tetapan atau variabel yang tidak bisa diubah nilainya. Ada dua cara pembuatan konstanta yaitu memakai #define dan const. perbedaan keduanya terletak pada format penulisan yaitu pada #define tidak perlu menuliskan tipe data dan titik koma di akhir, sedangkan const harus. keduanya dapat ditulis di dalam main() maupun di luar.
 
 
-**JOB SHEET 4 Operator**
+## JOB SHEET 4 Operator
 
 Operator adalah simbol yang digunakan untuk melakukan operasi tertentu. berdasarkan jumalah operand nya, operator tebagi 3 yaitu operator Unary 1 operand, operator Binary 2 operand, Operator Ternary 3 operand. Operand adalah nilai asal yang digunakan dalam sebuah operasi, sedangkan operator adalah instruksi untuk mendapatkan dari proses tersebut. 
 
@@ -49,7 +49,7 @@ Operator Aritmatika yaitu operator untuk operasi matematika seperti penjumlahan,
 Operator bitwise yaitu operator yang digunakan untuk operasi berdasarkan bit(biner) dari sebuah nilai.operator lain lain seperti Alamat memori(&) untuk menganbil alamat memori, pointer(*)untuk membuat pointer, ternary(?:) untuk membuat kondisi, increament(++)untuk menambah 1, decrement(--) untuk mengurangi 1.
 
 
-**JOB SHEET 5 Flow Control : Decision Making**
+## JOB SHEET 5 Flow Control : Decision Making
 
 Percabangan if yaitu percabangan yang hanya memiliki 1 blok pilihan saat kondisi bernilai benar. Percabangan if else adalah percabangan yang memiliki 2 blok pilihan yaitu blok pilihan pertama untuk kondisi, dan pilihan kedua untuk kondisi salah(else). Percabangan if else if adalah percabangan yang memiliki lebih dari dua blok pilihan. 
 
@@ -58,7 +58,7 @@ Percabangan Switch Case adalah bentuk lain dari percabangan if else if, dengan s
 Percabangan operator ternary adalah bentuk singkatnya dari percabangan if else. Operator ternary dikenal juga sebagai operator kondisi. Percabangan bersarang yaitu percabangan di dalam percabangan yang dikenal juga sebagai nested if. 
 
 
-**JOB SHEET 6 Flow Control : Loop (Perulangan)**
+## JOB SHEET 6 Flow Control : Loop (Perulangan)
 
 Loop atau perulangan adalah sepotong kode yang dieksekusi berulang kali hingga tercapai kondisi yang diinginkan. Secara umum perulangan dibagi 2 yaitu counted loop dan uncounted loop. Counted loop adalah perulangan yg sudah ditentukan batas perulangan nya, sedangkan uncounted loop adalah perulangan yang tidak jelas harus berapa kali mengulang. Perulangan counted loop yaitu perulangan for, perulangan uncounted loop yaitu perulangan while dan perulangan do/while.
 
@@ -67,7 +67,7 @@ Perulangan for adalah perulangan yang sudah jelas berapa kali ia mengulang. peru
 Perulangan do while adalah perulangan yang sama dengan while, bedanya do while akan melakukan perulangan 1 kali dulu baru mengecek kondisi yang ada dalam kurung while. Perulangan do while akan mengecek kondisi di akhir atau sesudah mengulang. Perulangan bersarang adalah perulangan di dalam perulangan yang biasa juga dikenal dengan nested loop.
 
 
-**JOB SHEET 7 Srtuktur Data : Array**
+## JOB SHEET 7 Srtuktur Data : Array
 
 Array adalah struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat. Setiap data dalam array memiliki indeks sehingga nantinya mudah untuk memprosesnya seperti mengakses atau mengganti datanya. Cara membuat array mirip seperti membuat variabel biasanya, namun pada array perlu menentukan panjang array menggunakan kurung siku[].
 
@@ -76,7 +76,7 @@ Array dapat diakses dengan mudah dengan cara memberinya nomor indeks. untuk meng
 Fungsi Strcpy() digunakan untuk mengkopi string pada variabel ke 2 ke variabel 1. Fungsi strcat() digunakan untuk menambahkan string dari belakang. Fungsi strlen() digunakan untuk menghitung panjang string. Fungsi strcmp() digunakan untuk membandingkan string dengan string lainnya. 
 
 
-**JOB SHEET 8 Fungsi & Prosedur**
+## JOB SHEET 8 Fungsi & Prosedur
 
 Fungsi adalah sub program yang bisa digunakan kembali baik di dalam program itu sendiri, maupun di program yang lain. Fungsi biasanya mengembalikkan nilai dari prosesnya, sehingga harus menentukan tipe data untuk dikembalikkan. Apabila tidak memiliki nilai kembalian, kita harus menggunakan void.
 
@@ -85,7 +85,7 @@ Fungsi dengan parameter, parameter adalah variabel yang menyimpan nilai untuk di
 Fungsi rekursif adalah fungsi yang memanggil dirinya sendiri di dalam tubuh fungsi. Variabel global adalah variabel yang bisa diakses dari semua fungsi, sedangkan variabel lokal adalah variabel yang hanya bisa diakses dari dalam fungsi itu sendiri. Pass by value dan pass by reference adalah cara untuk memberikan nilai pada parameter.
 
 
- **JOB SHEET 9 Pointer**
+ ## JOB SHEET 9 Pointer
 
  Pointer adalah sebuah variabel yang berisi alamat memori dari variabel yang lain. Nantinya pointer bisa mengakses data yang ada di suatu alamat memori. "pointer berisi alamat memori". Cara penggunaan pointer yaitu dengan menambahkan simbol * (asterik) di depan nama variabelnya, kemudian diisi dengan alamat memori yang akan digunakan sebagai referensi.
 
@@ -94,7 +94,7 @@ Perbedaan alamat memori pointer dan alamat referensi adalah alamat memori pointe
 Penggunaan pointer sebenarnya opsional, namun pada kondisi tertentu penggunaan pointer lebih optimal. Pointer dapat digunakan untuk pass by reference. Pointer juga dapat digunakan untuk mengakses data array.
 
 
-**JOB SHEET 10 Enumerasi & Structure**
+## JOB SHEET 10 Enumerasi & Structure
 
 Enum atau Enumeration merupakan tipe data yang berisi sekumpulan konstanta. Enum termasuk dalam tipe data bentukan, karena tipe data ini dibuat sendiri oleh kita. Enum dibutuhkan karena akan memberikan efisiensi dan fleksibilitas dalam penggunaan memori. Variabel enum hanya akan mengambil satu nilai dari konstanta yang ada. 
 
@@ -103,7 +103,7 @@ Structure atau struct adalah kumpulan dari beberapa variabel dengan beragam tipe
 Struct Bersarang yaitu struct dapat dibuat bersarang (nested). Bersarang artinya ada struct di dalam struct. Passing Struct ke dalam fungsi, struct dapat kita buat sebagai parameter untuk fungsi.
 
 
-**JOB SHEET 11 File handling in C**
+## JOB SHEET 11 File handling in C
 
 Saat program ditutup semua data yang tersimpan di variabel akan hilang. Memanfaatkan variabel saja tidak akan cukup untuk menyimpan data. Karena itu, kita membutuhkan media penyimpanan lain seperti File. Dengan demikian, kita akan tetap memiliki data, meskipun programnya sudah ditutup. Filenya juga bisa kita kirim ke komptuer lain dan dibuka dari sana.
 
