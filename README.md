@@ -12,7 +12,7 @@
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
-# Laporan Praktikum Algoritma Pemrograman
+### Laporan Praktikum Algoritma Pemrograman
 **JOB SHEET 1 Algoritma, Pemrograman, IDE**
 
 Algoritma adalah urutan langkah-langkah yang disusun secara sistematis dan logis untuk menyelesaikan suatu masalah atau mencapai suatu tujuan tertentu. Algoritma harus punya 6 ciri penting yaitu keterbatasan, setiap langkah tidak membingungkan, memiliki input, memiliki output, harus efektif, dan harus terstruktur. Pemrograman adalah proses penulisan kode menjadi sebuah program. Untuk melakukan pemrograman dibutuhkan algoritma dan bahasa pemrograman. Sementara orang yang melakukan pemrograman disebut dengan programmer, sedangkan program adalah produk dari proses pemrograman yang dilakukan.
